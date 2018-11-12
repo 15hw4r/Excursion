@@ -27,18 +27,13 @@ h5{
   font-size: 21px;
   color: gray;
   font-weight: normal;
+  text-align: center;
+}
+.copy{
+  text-align: right;
 }
 
-.container {
-width: 150px;
-height: 150px;
-position: relative;
-overflow: hidden;
-}
 
-.container img {
-max-height: 150px;
-position: absolute;
-left: 50%;
-margin-left: -75px;
+img{
+  margin: auto;
 }
