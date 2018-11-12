@@ -19,4 +19,26 @@ h3{
 h2{
   font-weight: 300;
   font-size: 42px;
+  color: white;
+  text-align: center;
+}
+h5{
+  font-family: verdana;
+  font-size: 21px;
+  color: gray;
+  font-weight: normal;
+}
+
+.container {
+width: 150px;
+height: 150px;
+position: relative;
+overflow: hidden;
+}
+
+.container img {
+max-height: 150px;
+position: absolute;
+left: 50%;
+margin-left: -75px;
 }
